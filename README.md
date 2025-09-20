@@ -1,6 +1,6 @@
-<H3>Name</H3>
-<H3>Register no.</H3>
-<H3>Date</H3>
+<H3>Name : JAIMURUGHAN.B</H3>
+<H3>Register no. :212222113001</H3>
+<H3>Date : 20.09.2025</H3>
 <H3>Experiment No. 2 </H3>
 ## Implementation of Perceptron for Binary Classification
 # AIM:
@@ -49,8 +49,8 @@ STEP 9:For ‘N ‘ iterations ,do the following:<BR>
 STEP 10:Plot the error for each iteration <BR>
 STEP 11:Print the accuracy<BR>
 # PROGRAM:
-    '''
-    import numpy as np
+   ````
+import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from mpl_toolkits import mplot3d
@@ -133,10 +133,9 @@ plt.plot(range(1, len(classifier.misclassified_samples) + 1), classifier.misclas
 plt.xlabel('Epoch')
 plt.ylabel('Errors')
 plt.show()
-```
-
+````
 # #OUTPUT:
-```
+
 
 
 <img width="401" height="420" alt="487740549-f391d5fa-b925-4267-b523-b2c059f94d5e" src="https://github.com/user-attachments/assets/bc713cac-85a4-49b9-9773-bfc3f342a912" />
